@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="#A19969C5"
+    android:background="#508B6DBC"
     tools:context=".ui.login.LoginActivity">
 
     <TextView
@@ -48,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:backgroundTint="#7C7777"
+        android:backgroundTint="#B4BFA175"
         android:foregroundTint="#AB3232"
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +64,8 @@
         android:focusable="true"
         android:text="Cadastre-se"
         android:textColor="#FF0000"
-        android:textStyle="bold"
+        android:textColorLink="#FF0000"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/button_login" />
